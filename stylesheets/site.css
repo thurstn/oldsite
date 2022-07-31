@@ -14,18 +14,18 @@ body
     padding: 0;
     font-size: 16px;
     overflow: hidden;
-    background-color: #e09f3e;
+    background-color: #335c67;
 }
-#nav li
+#nav > li
 {
-    background-color: #e09f3e;
+    background-color: #335c67;
     display: inline;
     float: left;
     width: 100px;
 }
 #nav li:hover
 {
-    background-color: #335c67;
+    background-color: #e09f3e;
 }
 #nav a
 {
@@ -70,7 +70,7 @@ body
 }
 .zigzag:after
 {
-    background: linear-gradient(-30deg, #540b0e 32px, transparent 0), linear-gradient(30deg, #540b0e 32px, transparent 0);
+    background: linear-gradient(-15deg, #540b0e 32px, transparent 0), linear-gradient(15deg, #540b0e 32px, transparent 0);
     background-position: left-bottom;
     background-repeat: repeat-x;
     background-size: 64px 64px;
