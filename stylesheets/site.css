@@ -18,6 +18,8 @@ body
 #nav li
 {
     background-color: #e09f3e;
+    display: inline;
+    float: left;
     width: 100px;
 }
 #nav li:hover
