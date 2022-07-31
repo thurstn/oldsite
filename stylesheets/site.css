@@ -1,13 +1,14 @@
 body
 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 12px;
     color: #ffffff;
     background-color: #540b0e;
 }
 
 #nav
 {
+    display: inline;
+    list-style-type: none;
     overflow: hidden;
     background-color: #e09f3e;
 }
@@ -17,7 +18,13 @@ body
 }
 #nav li:hover
 {
-    background-color: #fff3b0;
+    background-color: #335c67;
+}
+#nav a
+{
+    float: left;
+    text-align: center;
+    text-decoration: none;
 }
 
 .zigzag
