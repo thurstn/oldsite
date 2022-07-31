@@ -2,8 +2,22 @@ body
 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 12px;
-    color: #fff3b0;
+    color: #ffffff;
     background-color: #540b0e;
+}
+
+#nav
+{
+    overflow: hidden;
+    background-color: #e09f3e;
+}
+#nav li
+{
+    background-color: #e09f3e;
+}
+#nav li:hover
+{
+    background-color: #fff3b0;
 }
 
 .zigzag
