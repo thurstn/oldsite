@@ -48,12 +48,12 @@ body
     display: block;
     color: #000000;
     text-align: center;
-    padding: 0;
+    padding: 14px 16px;
     text-decoration: none;
     font-size: 40px;
     border: 3px solid rgba(0,0,0,0);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    width: 25%;
+    width: 20%;
 }
 
 .active
@@ -65,7 +65,7 @@ body
 {
     float: left;
     overflow: auto;
-    width: 25%;
+    width: 20%;
 }
 .nav-dropdown .dropbtn
 {
@@ -73,7 +73,7 @@ body
     display: block;
     color: #000000;
     text-align: center;
-    padding: 0;
+    padding: 14px 16px;
     font-size: 40px;
     border: 3px solid rgba(0,0,0,0);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
@@ -98,7 +98,7 @@ body
     display: block;
     color: #000000;
     text-align: center;
-    padding: 0;
+    padding: 14px 16px;
     text-decoration: none;
     font-size: 30px;
     border: 3px solid rgba(0,0,0,0);
@@ -111,7 +111,7 @@ body
 /* Show dropdown boxes on hover */
 .nav-dropdown:hover .dropdown-content
 {
-    display: block;
+    /*display: block;*/
 }
 
 /* Zigzag accent below navbar */
@@ -128,13 +128,13 @@ body
     position: absolute;
     display: block;
     height: 10px;
-    bottom: -20px;
+    bottom: -10px;
     /* -height */
     left: 0;
     right: 0;
     /* TODO Add browser prefixes */
     background: linear-gradient( 45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%), linear-gradient( -45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%);
-    background-size: 8px 20px;
+    background-size: 16px 40px;
     /* toothSize doubleHeight */
     background-position: 0 -10px;
     /* horizontalOffset -height */
