@@ -46,7 +46,7 @@ body
 }
 #navbar a
 {
-    float: left;
+    float: none;
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -55,7 +55,7 @@ body
     font-size: 40px;
     border: 3px solid rgba(0,0,0,0);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    width: 33.3%;
+    width: 10%;
 }
 
 .active
@@ -68,11 +68,11 @@ body
     position: relative;
     float: left;
     overflow: auto;
-    width: 33.3%;
+    width: 10%;
 }
 .dropdown .dropbtn
 {
-    float: left;
+    float: none;
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -129,16 +129,16 @@ body
     content: "";
     position: absolute;
     display: block;
-    height: 10px;
-    bottom: -10px;
+    height: 30px;
+    bottom: -30px;
     /* -height */
     left: 0;
     right: 0;
     /* TODO Add browser prefixes */
     background: linear-gradient(45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%);
-    background-size: 8px 20px;
+    background-size: 32px 80px;
     /* toothSize doubleHeight */
-    background-position: 0 -10px;
+    background-position: 0 -30px;
     /* horizontalOffset -height */
 }
 
