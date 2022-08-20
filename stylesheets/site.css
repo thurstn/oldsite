@@ -128,8 +128,8 @@ body
     content: "";
     position: absolute;
     display: block;
-    height: 20px;
-    bottom: -20px;
+    height: 10px;
+    bottom: -10px;
     /* -height */
     left: 0;
     right: 0;
