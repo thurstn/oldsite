@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>thurstn's fungeon</title>
+        <title>Portfolio | Thurstn</title>
         <link href="/site/stylesheets/site.css" media="screen" rel="stylesheet" type="text/css" />
-        <script href="/site/scripts/site.js"/>
+        <script href="/site/scripts/site.js"></script>
     </head>
 
     <body>
-        <h1>Welcome to thurstn's fungeon.</h1>
-        <!--navbar-->
-        <div class="topnav">
-            <ul id="nav">
-                <li><a href="/site/">Home</a></li>
-                <li class="nav-dropdown"><a href="/site/gallery/">Gallery</a></li>
-                <li><a href="/site/about/">About</a></li>
-            </ul>
+        <div class="headbar">
+            <h1>Thurstn</h1>
+
+            <div id="navbar">
+                <div class="nav-dropdown">
+                    <button class="dropbtn">Portfolio
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="/site/illustration/">Illustration</a>
+                        <a href="/site/animation/">Animation</a>
+                        <a href="/site/web-design/">Web Design</a>
+                        <a href="/site/projects/">Projects</a>
+                    </div>
+                </div>
+                <a href="/site/commissions/">Commissions</a>
+                <a href="/site/about/">About</a>
+                <a href="/site/contact/">Contact</a>
+            </div>
+
+            <!--zigzag accent that goes below the navbar-->
+            <div class="navbar-accent"></div>
         </div>
 
-        <div class="zigzag"></div>
+        
 
         <!--slideshow/carousel images-->
-        <div class="slideshow-container">
-            <!--Gallery slide-->
-            <div class="myslides fade">
-                <div class="numbertext">1 / 3</div>
-                <img src="/images/slideshow/1-bg.png" style="width:100%" alt="Image 1">
-                <img src="/images/slideshow/1-char.png" alt="Character 1">
-                <div class="text">Check out the gallery!</div>
+        <div class="carousel-container">
+            <div class="image-box">
+                <img src="https://picsum.photos/1920/1080?random=1" alt="Image 1"/>
             </div>
-
-            <!--Work/projects slide-->
-            <div class="myslides fade">
-                <div class="numbertext">2 / 3</div>
-                <img src="/images/slideshow/2-bg.png" style="width:100%" alt="Image 2">
-                <img src="/images/slideshow/2-char.png" alt="Character 2">
-                <div class="text">See some projects!</div>
+            <div class="image-box">
+                <img src="https://picsum.photos/1920/1080?random=2" alt="Image 2"/>
             </div>
-
-            <!--About/contact slide-->
-            <div class="myslides fade">
-                <div class="numbertext">3 / 3</div>
-                <img src="/images/slideshow/3-bg.png" style="width:100%" alt="Image 3">
-                <img src="/images/slideshow/3-char.png" alt="Character 3">
-                <div class="text">Caption Three</div>
+            <div class="image-box">
+                <img src="https://picsum.photos/1920/1080?random=3" alt="Image 3"/>
+            </div>
+            <div class="image-box">
+                <img src="https://picsum.photos/1920/1080?random=4" alt="Image 4"/>
+            </div>
+            <div class="image-box">
+                <img src="https://picsum.photos/1920/1080?random=5" alt="Image 5"/>
             </div>
         </div>
 

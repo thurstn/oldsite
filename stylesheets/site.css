@@ -5,42 +5,39 @@
 
 body
 {
-    font-family:'Courier New', Courier, monospace;
-    color: #ffffff;
+    font-family: 'Patrick-Hand-SC';
+    color: #000000;
     background-color: #540b0e;
     list-style-type: none;
     margin: 0;
 }
 
-#nav
+#navbar
 {
     display: block;
     margin: 0;
-    padding: 20px;
-    font-size: 24px;
     overflow: hidden;
     background-color: #ffffff;
 }
-#nav li
-{
-    background-color: #ffffff;
-    display: inline;
-    float: left;
-    width: 100px;
-}
-#nav li:hover
-{
-    background-color: #f0f0f0;
-}
-#nav a
+#navbar a
 {
     float: left;
+    display: block;
+    color: #000000;
     text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 24px;
+    border: 2px solid rgba(0,0,0,0);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 }
-#nav a:active
+#navbar a:hover
 {
-    
+    border: 2px dashed rgba(0,0,0,1);
+}
+.active
+{
+    border: 2px solid rgba(0,0,0,1);
 }
 
 .zigzag
