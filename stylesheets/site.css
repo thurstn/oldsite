@@ -1,6 +1,11 @@
+@font-face {
+    font-family: Patrick-Hand-SC;
+    src: url('/site/fonts/patrick-hand.sc.ttf');
+}
+
 body
 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Courier New', Courier, monospace;
     color: #ffffff;
     background-color: #540b0e;
     list-style-type: none;
@@ -14,24 +19,28 @@ body
     padding: 20px;
     font-size: 24px;
     overflow: hidden;
-    background-color: #e09f3e;
+    background-color: #ffffff;
 }
 #nav li
 {
-    background-color: #e09f3e;
+    background-color: #ffffff;
     display: inline;
     float: left;
     width: 100px;
 }
 #nav li:hover
 {
-    background-color: #335c67;
+    background-color: #f0f0f0;
 }
 #nav a
 {
     float: left;
     text-align: center;
     text-decoration: none;
+}
+#nav a:active
+{
+    
 }
 
 .zigzag
