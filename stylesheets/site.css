@@ -28,7 +28,7 @@ body
 }
 #header h1
 {
-    float: inline-start;
+    float: block;
     font-size: 60px;
     width: 15%;
     text-align: center;
@@ -46,7 +46,7 @@ body
 }
 #navbar a
 {
-    float: none;
+    float: left;
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -65,14 +65,13 @@ body
 
 .dropdown
 {
-    position: relative;
     float: left;
     overflow: auto;
     width: 10%;
 }
 .dropdown .dropbtn
 {
-    float: none;
+    /*float: left;
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -82,7 +81,7 @@ body
     outline: none;
     background-color: inherit;
     font-family: inherit;
-    margin: 0;
+    margin: 0;*/
     width: 100%;
 }
 .dropdown-content
@@ -90,7 +89,7 @@ body
     display: none;
     position: absolute;
     background-color: #ffffff;
-    min-width: 160px;
+    width: 100%;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
@@ -100,7 +99,7 @@ body
     display: block;
     color: #000000;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 16px;
     text-decoration: none;
     font-size: 30px;
     border: 3px solid rgba(0,0,0,0);
@@ -136,7 +135,7 @@ body
     right: 0;
     /* TODO Add browser prefixes */
     background: linear-gradient(45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%);
-    background-size: 32px 80px;
+    background-size: 24px 60px;
     /* toothSize doubleHeight */
     background-position: 0 -30px;
     /* horizontalOffset -height */
