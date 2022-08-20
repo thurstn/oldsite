@@ -65,6 +65,7 @@ body
 
 .dropdown
 {
+    position: relative;
     float: left;
     overflow: auto;
     width: 20%;
@@ -88,6 +89,7 @@ body
 {
     display: none;
     position: absolute;
+    top: 100%;
     background-color: #ffffff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -137,7 +139,7 @@ body
     background: linear-gradient(45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%);
     background-size: 16px 40px;
     /* toothSize doubleHeight */
-    background-position: 0 -10px;
+    background-position: 0 -20px;
     /* horizontalOffset -height */
 }
 
