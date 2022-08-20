@@ -28,6 +28,7 @@ body
 }
 #header h1
 {
+    float: left;
     font-size: 60px;
     width: 10%;
     text-align: center;
@@ -38,7 +39,7 @@ body
 {
     display: block;
     width: 80%;
-    margin: 0 10%;
+    margin: 0 15%;
     overflow: hidden;
     background-color: #ffffff;
 }
@@ -61,13 +62,13 @@ body
     border: 3px solid rgba(0,0,0,1);
 }
 
-.nav-dropdown
+.dropdown
 {
     float: left;
     overflow: auto;
     width: 20%;
 }
-.nav-dropdown .dropbtn
+.dropdown .dropbtn
 {
     float: left;
     display: block;
@@ -104,14 +105,14 @@ body
     border: 3px solid rgba(0,0,0,0);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 }
-#navbar a:hover, .nav-dropdown:hover .dropbtn
+#navbar a:hover, .dropdown:hover .dropbtn
 {
     border: 3px dashed rgba(0,0,0,1);
 }
 /* Show dropdown boxes on hover */
-.nav-dropdown:hover .dropdown-content
+.dropdown:hover .dropdown-content
 {
-    /*display: block;*/
+    display: block;
 }
 
 /* Zigzag accent below navbar */
@@ -134,7 +135,7 @@ body
     right: 0;
     /* TODO Add browser prefixes */
     background: linear-gradient( 45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%), linear-gradient( -45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%);
-    background-size: 16px 40px;
+    background-size: 16px 20px;
     /* toothSize doubleHeight */
     background-position: 0 -10px;
     /* horizontalOffset -height */
@@ -146,7 +147,7 @@ body
     height: 90vh;
     width: 100%;
     display: flex;
-    margin: 3% auto 0;
+    margin: 50px auto 0;
     box-sizing: border-box;
 }
 .image-box
