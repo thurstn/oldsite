@@ -37,11 +37,9 @@ body
 /* Navbar stuff */
 #navbar
 {
-    position: absolute;
     display: block;
     width: 80%;
-    top: 0;
-    left: 10%;
+    margin: 0 10%;
     overflow: hidden;
     color: #000000;
     background-color: #ffffff;
