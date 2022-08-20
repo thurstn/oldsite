@@ -22,14 +22,14 @@ body
 #headbar
 {
     display: block;
-    background-color: #000000;
+    background-color: #ffffff;
     width: 100%;
     margin: 0;
 }
 #headbar h1
 {
     font-size: 40px;
-    display: inline-block;
+    display: block;
     width: 10%;
     text-align: center;
 }
@@ -51,15 +51,15 @@ body
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 30px;
-    border: 2px solid rgba(0,0,0,0);
+    font-size: 40px;
+    border: 3px solid rgba(0,0,0,0);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     width: 25%;
 }
 
 .active
 {
-    border: 2px solid rgba(0,0,0,1);
+    border: 3px solid rgba(0,0,0,1);
 }
 
 .nav-dropdown
@@ -74,8 +74,8 @@ body
     color: #000000;
     text-align: center;
     padding: 14px 16px;
-    font-size: 30px;
-    border: 2px solid rgba(0,0,0,0);
+    font-size: 40px;
+    border: 3px solid rgba(0,0,0,0);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
     outline: none;
     background-color: inherit;
@@ -101,12 +101,12 @@ body
     padding: 14px 16px;
     text-decoration: none;
     font-size: 30px;
-    border: 2px solid rgba(0,0,0,0);
+    border: 3px solid rgba(0,0,0,0);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 }
 #navbar a:hover, .nav-dropdown:hover .dropbtn
 {
-    border: 2px dashed rgba(0,0,0,1);
+    border: 3px dashed rgba(0,0,0,1);
 }
 /* Show dropdown boxes on hover */
 .nav-dropdown:hover .dropdown-content
@@ -118,15 +118,15 @@ body
 #navbar-accent
 {
     position: relative;
-    padding: 16px 16px 64px 16px;
-    background: #9e2a2b;
+    padding: 8px 8px 32px 8px;
+    background: #ffffff;
 }
 #navbar-accent:after
 {
-    background: linear-gradient(-15deg, #540b0e 32px, transparent 0), linear-gradient(15deg, #540b0e 32px, transparent 0);
+    background: linear-gradient(-45deg, #ffffff 16px, transparent 0), linear-gradient(45deg, #ffffff 16px, transparent 0);
     background-position: left-bottom;
     background-repeat: repeat-x;
-    background-size: 64px 64px;
+    background-size: 32px 32px;
     content: " ";
     display: block;
     position: absolute;
@@ -139,10 +139,10 @@ body
 /* Mini Gallery Carousel thing */
 .carousel-container
 {
-    height: 80vh;
-    width: 90%;
+    height: 90vh;
+    width: 100%;
     display: flex;
-    margin: 2% auto 0;
+    margin: 1% auto 0;
     box-sizing: border-box;
 }
 .image-box
@@ -151,7 +151,7 @@ body
     flex-grow: 1;
     flex-basis: 0;
     transition: 0.5s;
-    border: 2px solid rgba(255,255,255,1);
+    border: 5px solid rgba(255,255,255,1);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 }
 .image-box img
