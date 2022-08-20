@@ -37,19 +37,22 @@ body
 /* Navbar stuff */
 #navbar
 {
+    position: absolute;
     display: block;
     width: 80%;
-    margin: 0 15%;
+    top: 0;
+    left: 10%;
     overflow: hidden;
+    color: #000000;
     background-color: #ffffff;
 }
 #navbar a
 {
     float: left;
     display: block;
-    color: #000000;
     text-align: center;
     padding: 14px 16px;
+    margin: 0.5%;
     text-decoration: none;
     font-size: 40px;
     border: 3px solid rgba(0,0,0,0);
@@ -72,7 +75,6 @@ body
 {
     float: left;
     display: block;
-    color: #000000;
     text-align: center;
     padding: 14px 16px;
     font-size: 40px;
@@ -128,14 +130,14 @@ body
     content: "";
     position: absolute;
     display: block;
-    height: 10px;
-    bottom: -10px;
+    height: 20px;
+    bottom: -20px;
     /* -height */
     left: 0;
     right: 0;
     /* TODO Add browser prefixes */
     background: linear-gradient(45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%);
-    background-size: 8px 20px;
+    background-size: 16px 40px;
     /* toothSize doubleHeight */
     background-position: 0 -10px;
     /* horizontalOffset -height */
