@@ -28,9 +28,9 @@ body
 }
 #header h1
 {
-    float: left;
+    float: inline-start;
     font-size: 60px;
-    width: 10%;
+    width: 15%;
     text-align: center;
 }
 
