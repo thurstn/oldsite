@@ -38,8 +38,8 @@ body
 #navbar
 {
     display: block;
-    width: 80%;
-    margin: 0 10%;
+    width: 70%;
+    margin: 0 15%;
     overflow: hidden;
     color: #000000;
     background-color: #ffffff;
@@ -55,7 +55,7 @@ body
     font-size: 40px;
     border: 3px solid rgba(0,0,0,0);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-    width: 20%;
+    width: 33.3%;
 }
 
 .active
@@ -68,7 +68,7 @@ body
     position: relative;
     float: left;
     overflow: auto;
-    width: 20%;
+    width: 33.3%;
 }
 .dropdown .dropbtn
 {
@@ -89,7 +89,6 @@ body
 {
     display: none;
     position: absolute;
-    top: 100%;
     background-color: #ffffff;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -130,16 +129,16 @@ body
     content: "";
     position: absolute;
     display: block;
-    height: 20px;
-    bottom: -20px;
+    height: 10px;
+    bottom: -10px;
     /* -height */
     left: 0;
     right: 0;
     /* TODO Add browser prefixes */
     background: linear-gradient(45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%);
-    background-size: 16px 40px;
+    background-size: 8px 20px;
     /* toothSize doubleHeight */
-    background-position: 0 -20px;
+    background-position: 0 -10px;
     /* horizontalOffset -height */
 }
 
