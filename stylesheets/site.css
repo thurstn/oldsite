@@ -151,7 +151,7 @@ body
 }
 .image-box
 {
-    margin: 0 0.5%;
+    margin: 0 0.1%;
     flex-grow: 1;
     flex-basis: 0;
     transition: 0.5s;
