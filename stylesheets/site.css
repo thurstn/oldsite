@@ -39,7 +39,7 @@ header a
 /* Navbar stuff */
 .navbar
 {
-    display: block;
+    display: flex;
     width: 70%;
     margin: 0 auto;
     overflow: hidden;
@@ -149,7 +149,7 @@ header a
 .carousel-container
 {
     height: 95vh;
-    width: 100%;
+    width: 95%;
     display: flex;
     margin: 50px auto 0;
     box-sizing: border-box;
