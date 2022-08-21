@@ -30,10 +30,11 @@ header
 header #logo
 {
     float: left;
-    text-align: justify;
+    text-align: center;
     text-decoration: none;
     font-size: 50px;
-    width: 20%;
+    margin: 0 5%;
+    width: 10%;
     height: 100%;
 }
 
@@ -43,7 +44,7 @@ header #logo
     display: block;
     width: 60%;
     height: 100%;
-    margin: 0;
+    margin: 0 5%;
     overflow: hidden;
     color: #000000;
     background-color: #ffffff;
