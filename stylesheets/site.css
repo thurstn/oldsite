@@ -146,7 +146,6 @@ header #logo
     transition: 0.5s;
     border: 5px solid rgba(255,255,255,1);
     /*border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;*/
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 .image-box img
 {
@@ -167,7 +166,6 @@ hr
     height: 3px;
     width: 80%;
     margin: 1% 10%;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 /* Zigzag accent below navbar */
