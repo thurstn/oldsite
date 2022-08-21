@@ -62,7 +62,7 @@ header a
     margin: 4px 4px;
     display: inline;
 }
-.navbar li a
+.navbar a
 {
     float: left;
     text-align: center;
@@ -73,15 +73,15 @@ header a
     border: 3px solid rgba(0,0,0,0);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
 }
-.navbar li a:hover
+.navbar a:hover
 {
     border: 3px dashed rgba(0,0,0,1);
 }
-.navbar li a.active
+.navbar a.active
 {
     border: 3px solid rgba(0,0,0,1);
 }
-.navbar li a:visited
+.navbar a:visited
 {
     text-decoration: none;
 }
