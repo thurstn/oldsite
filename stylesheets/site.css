@@ -64,7 +64,7 @@ header a
 }
 .navbar li a
 {
-    float: none;
+    float: left;
     text-align: center;
     padding: 10px 12px;
     margin: 1%;
@@ -149,7 +149,7 @@ header a
 /* Mini Gallery Carousel thing */
 .carousel-container
 {
-    height: 95vh;
+    height: 90vh;
     width: 95%;
     display: flex;
     margin: 50px auto 0;
