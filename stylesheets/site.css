@@ -176,7 +176,7 @@ footer #footer-accent:after
     bottom: -30px; /* -height */
     left: 0;
     right: 0;
-    background: linear-gradient(135deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%), linear-gradient(225deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%);
+    background: linear-gradient(135deg, #ffffff 33.333%, transparent 33.333%, transparent 66.667%, #ffffff 66.667%), linear-gradient(225deg, #ffffff 33.333%, transparent 33.333%, transparent 66.667%, #ffffff 66.667%);
     background-size: 24px 60px; /* toothSize doubleHeight */
     background-position: 0 -30px; /* horizontalOffset -height */
 }
