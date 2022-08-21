@@ -30,10 +30,10 @@ header
 header #logo
 {
     float: left;
-    text-align: right;
+    text-align: center;
     text-decoration: none;
-    font-size: 60px;
-    width: 15%;
+    font-size: 50px;
+    width: 20%;
     height: 100%;
 }
 
@@ -41,7 +41,7 @@ header #logo
 .navbar
 {
     display: block;
-    width: 70%;
+    width: 60%;
     height: 100%;
     margin: 0;
     overflow: hidden;
@@ -66,7 +66,7 @@ header #logo
 {
     float: left;
     text-align: center;
-    padding: 10px 12px;
+    padding: 14px 16px;
     margin: 1%;
     text-decoration: none;
     font-size: 40px;
