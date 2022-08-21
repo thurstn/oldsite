@@ -32,8 +32,9 @@ header a
     float: left;
     text-align: center;
     text-decoration: none;
-    font-size: 40px;
-    width: 15%
+    font-size: 50px;
+    width: 20%;
+    height: 100%;
 }
 
 /* Navbar stuff */
@@ -51,7 +52,7 @@ header a
     padding: 0;
     margin: 0;
     text-align: center;
-    vertical-align: top;
+    vertical-align: bottom;
 }
 .navbar li
 {
