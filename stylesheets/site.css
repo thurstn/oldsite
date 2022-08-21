@@ -39,7 +39,7 @@ header a
 /* Navbar stuff */
 .navbar
 {
-    display: flex;
+    display: block;
     width: 70%;
     margin: 0 auto;
     overflow: hidden;
@@ -160,8 +160,8 @@ header a
     flex-grow: 1;
     flex-basis: 0;
     transition: 0.5s;
-    /*border: 5px solid rgba(255,255,255,1);
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;*/
+    border: 5px solid rgba(255,255,255,1);
+    /*border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;*/
 }
 .image-box img
 {
