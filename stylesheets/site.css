@@ -44,7 +44,7 @@ header #logo
     display: block;
     width: 60%;
     height: 100%;
-    margin: 0 5%;
+    margin: 0;
     overflow: hidden;
     color: #000000;
     background-color: #ffffff;
@@ -67,8 +67,8 @@ header #logo
 {
     float: left;
     text-align: center;
-    padding: 8px 14px;
-    margin: 1%;
+    padding: 4px 10px;
+    margin: 0 1%;
     text-decoration: none;
     font-size: 40px;
     border: 3px solid rgba(0,0,0,0);
