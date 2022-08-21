@@ -48,9 +48,17 @@ header a
 }
 .navbar ul
 {
+    padding: 0;
+    margin: 0;
     list-style-type: none;
     display: inline-block;
-    overflow: auto;
+    text-align: center;
+    vertical-align: top;
+}
+.navbar li
+{
+    list-style-type: none;
+    padding: 0;
 }
 .navbar a
 {
