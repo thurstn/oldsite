@@ -11,6 +11,10 @@ body
     list-style-type: none;
     margin: 0;
 }
+a
+{
+    text-decoration: none;
+}
 
 .sticky
 {
@@ -29,10 +33,9 @@ header
 header a
 {
     float: left;
-    display: inline-block;
     text-align: center;
     text-decoration: none;
-    font-size: 60px;
+    font-size: 50px;
     width: 15%
 }
 
@@ -41,7 +44,7 @@ header a
 {
     display: block;
     width: 70%;
-    margin: 0 15%;
+    margin: 0 auto;
     overflow: hidden;
     color: #000000;
     background-color: #ffffff;
@@ -66,6 +69,7 @@ header a
     padding: 14px 16px;
     margin: 1%;
     text-decoration: none;
+    line-height: ;
     font-size: 40px;
     border: 3px solid rgba(0,0,0,0);
     border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
