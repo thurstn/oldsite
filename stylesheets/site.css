@@ -87,10 +87,11 @@ header #logo
     position: absolute;
     display: block;
     height: 100vh;
+    width: 30px;
     bottom: 0; /* -height */
     left: -30px;
     right: 30px;
     background: linear-gradient(-135deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%);
-    background-size: 24px 60px; /* toothSize doubleHeight */
-    background-position: 0 0 100% 100%; /* horizontalOffset -height */
+    background-size: 60px 24px; /* toothSize doubleHeight */
+    background-position: top left; /* horizontalOffset -height */
 }
