@@ -150,13 +150,12 @@ hr
 }
 .link-column
 {
-    width: 20%;
-    max-width: 20%;
-    padding: 0 4px;
+    width: 40%;
+    max-width: 40%;
+    margin: 1%;
 }
 .link-column img
 {
-    margin-top: 8px;
     vertical-align: middle;
     width: 100%;
 }
