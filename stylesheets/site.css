@@ -86,9 +86,12 @@ header #logo
     content: "";
     position: absolute;
     display: block;
-    background: linear-gradient(135deg, #ffffff 33.333%, transparent 33.333%), linear-gradient(45deg, #ffffff 33.333%, transparent 33.333%);
-    background-size: 50px 50px; /* toothSize doubleHeight */
-    background-repeat: repeat-y;
-    background-position: top left; /* horizontalOffset -height */
-    height: 100vh;
+    height: 30px;
+    bottom: -30px; /* -height */
+    left: 0;
+    right: 0;
+    background: linear-gradient(45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%);
+    background-size: 24px 60px; /* toothSize doubleHeight */
+    background-position: 0 -30px; /* horizontalOffset -height */
+    transform: rotateZ(-90deg) translate(200px,250px);
 }
