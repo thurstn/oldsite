@@ -37,3 +37,60 @@ header #logo
     width: 10%;
     height: 100%;
 }
+
+/* Navbar stuff */
+.navbar
+{
+    display: block;
+    width: 60%;
+    height: 60%;
+    margin: 0 20%;
+    overflow: hidden;
+    color: #000000;
+    background-color: #ffffff;
+}
+.navbar a
+{
+    float: left;
+    text-align: center;
+    padding: 4px 16px;
+    margin: 0.5% 1%;
+    text-decoration: none;
+    font-size: 40px;
+    border: 3px solid rgba(0,0,0,0);
+    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+.navbar a:hover
+{
+    border: 3px dashed rgba(0,0,0,1);
+}
+.navbar a.active
+{
+    border: 3px solid rgba(0,0,0,1);
+}
+.navbar a:visited
+{
+    text-decoration: none;
+}
+
+/* Zigzag accent below navbar */
+#navbar-accent
+{
+    position: relative;
+    color: white;
+    background-color: #ffffff;
+    text-align: center;
+}
+#navbar-accent:after
+{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 30px;
+    bottom: 0; /* -height */
+    left: -30px;
+    right: 0;
+    background: linear-gradient(45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%);
+    background-size: 24px 60px; /* toothSize doubleHeight */
+    background-position: 0 -30px; /* horizontalOffset -height */
+}

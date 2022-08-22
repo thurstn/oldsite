@@ -73,12 +73,6 @@ header #logo
     text-decoration: none;
 }
 
-/* Show dropdown boxes on hover */
-.dropdown:hover .dropdown-content
-{
-    display: block;
-}
-
 /* Zigzag accent below navbar */
 #navbar-accent
 {
