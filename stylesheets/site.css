@@ -93,5 +93,5 @@ header #logo
     background: linear-gradient(45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%);
     background-size: 24px 60px; /* toothSize doubleHeight */
     background-position: 0 -30px; /* horizontalOffset -height */
-    transform: rotateZ(-90deg) translate(200px,250px);
+    transform: rotateZ(-90deg);
 }
