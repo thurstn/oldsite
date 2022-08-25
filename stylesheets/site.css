@@ -12,13 +12,10 @@ body
     margin: 0;
     padding: 0;
 
-    background-color: #540b0e;
-    background-image:
-        repeating-linear-gradient(120deg, rgba(246, 170, 28, 1), rgba(246, 170, 28, 1) 1px, transparent 1px, transparent 60px),
-        repeating-linear-gradient(60deg, rgba(246, 170, 28, 1), rgba(246, 170, 28, 1) 1px, transparent 1px, transparent 60px),
-        linear-gradient(60deg, rgba(188,57,8,1) 25%, transparent 25%, transparent 75%, rgba(188,57,8,1) 75%, rgba(188,57,8,1)),
-        linear-gradient(120deg, rgba(188,57,8,1) 25%, transparent 25%, transparent 75%, rgba(188,57,8,1) 75%, rgba(188,57,8,1));
-    background-size: 140px 240px;
+    background-color: #bc3908;
+    background-image: linear-gradient(45deg, #941b0c 25%, transparent 25%, transparent 75%, #941b0c 75%, #941b0c),
+    linear-gradient(-45deg, #941b0c 25%, transparent 25%, transparent 75%, #941b0c 75%, #941b0c);
+    background-size: 120px 120px;
 }
 
 .sticky
