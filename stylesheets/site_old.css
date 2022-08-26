@@ -29,6 +29,7 @@ header
 }
 header #logo
 {
+    display: block;
     float: left;
     text-align: center;
     text-decoration: none;
