@@ -31,7 +31,7 @@ header #logo
     width: 70%; /*9:2*/
     height: 15%;
 }
-header #logoHeading
+header #logo_text
 {
     display: block;
     float: left;
@@ -57,7 +57,7 @@ header #logoHeading
 {
     float: left;
     text-align: center;
-    padding: 4px 8px;
+    padding: 4px 0;
     margin: 1% 0;
     text-decoration: none;
     font-size: 30px;
