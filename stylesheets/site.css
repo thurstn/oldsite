@@ -81,16 +81,15 @@ header #logo_text
 {
     display: block;
     width: 90%;
-    height: 10%;
-    margin: 5%;
+    margin: 0 5%;
 }
 .fa
 {
     display: block;
     /*padding: 4px;*/
     font-size: 30px;
-    width: 30%;
-    margin: 0;
+    width: 35%;
+    margin: 0 1%;
     text-align: center;
     text-decoration: none;
 }
