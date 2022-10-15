@@ -30,16 +30,18 @@ header #logo
     margin: 5% 25%;
     width: 50%; /*9:2*/
     height: 15%;
+    border: 2px solid rgba(0,0,0,1);
 }
 header #logo_text
 {
     display: block;
     float: left;
     text-align: center;
-    margin: 0 5%;
+    margin: 5% 5%;
     width: 90%;
     font-size: 30px;
     text-decoration: none;
+    border-bottom: 2px solid rgba(0,0,0,1);
 }
 
 
@@ -47,9 +49,9 @@ header #logo_text
 .navbar
 {
     display: block;
-    width: 90%;
+    width: 80%;
     height: 40%;
-    margin: 30% 5%;
+    margin: 30% 10%;
     overflow: hidden;
     color: #000000;
     background-color: #ffffff;
@@ -67,13 +69,14 @@ header #logo_text
 }
 .navbar a:hover
 {
-    border-bottom: 2px solid rgba(0,0,0,1);
+    border-bottom: 2px solid rgba(0,0,0,0.5);
 }
-.navbar a.active
+/*.navbar a.active
 {
-    border-bottom: 2px solid rgba(0,0,0,1);
-}
+    border-bottom: 2px solid rgba(0,0,0,0.5);
+}*/
 
+/* Page Scroll Snapping */
 .scroll-container
 {
     margin-left: 15%;
