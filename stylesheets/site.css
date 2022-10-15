@@ -27,10 +27,9 @@ header #logo
     display: block;
     float: left;
     text-align: center;
-    font-size: 50px;
     margin: 0 5%;
     width: 60%;
-    height: 10%;
+    height: 15%;
 }
 
 /* Navbar stuff */
@@ -39,7 +38,7 @@ header #logo
     display: block;
     width: 60%;
     height: 60%;
-    margin: 10% 20%;
+    margin: 15% 5%;
     overflow: hidden;
     color: #000000;
     background-color: #ffffff;
@@ -52,6 +51,7 @@ header #logo
     margin: 0.5% 1%;
     text-decoration: none;
     font-size: 30px;
+    border-bottom: 2px solid rgba(0,0,0,0);
 }
 .navbar a:hover
 {
