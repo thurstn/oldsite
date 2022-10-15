@@ -7,10 +7,6 @@ body
     padding: 0;
     text-decoration: none;
 }
-img
-{
-    object-fit: cover;
-}
 
 .sticky
 {
@@ -28,12 +24,21 @@ header
 }
 header #logo
 {
+    object-fit: cover;
     display: block;
     float: left;
-    text-align: center;
-    margin: 5% 5%;
+    margin: 5% 15%;
+    width: 70%; /*9:2*/
+    height: 15%;
+}
+header #logoHeading
+{
+    display: block;
+    float: left;
+    margin: 0 5%;
     width: 90%;
-    height: 20%;
+    font-size: 30px;
+    text-decoration: none;
 }
 
 
@@ -53,7 +58,7 @@ header #logo
     float: left;
     text-align: center;
     padding: 4px 8px;
-    margin: 0 1%;
+    margin: 1% 0;
     text-decoration: none;
     font-size: 30px;
     border-bottom: 2px solid rgba(0,0,0,0);
