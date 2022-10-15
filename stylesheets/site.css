@@ -85,8 +85,10 @@ header #logo_text
 }
 .fa
 {
-    padding: 4px;
-    font-size: 30px;
+    display: block;
+    float: left;
+    /*padding: 4px;*/
+    font-size: 50px;
     width: 30%;
     margin: 0;
     text-align: center;
