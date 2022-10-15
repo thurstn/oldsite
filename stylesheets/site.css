@@ -77,12 +77,6 @@ header #logo_text
 }*/
 
 /* Social Media Icons */
-.social-link-block
-{
-    display: block;
-    width: 90%;
-    overflow: hidden;
-}
 .fa
 {
     padding: 20px;
