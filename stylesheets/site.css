@@ -76,7 +76,7 @@ header #logo_text
     border-bottom: 2px solid rgba(0,0,0,0.5);
 }*/
 
-/* Social Media Icons */
+/* Social Media Icons
 .social-link-row
 {
     display: block;
@@ -86,7 +86,6 @@ header #logo_text
 .fa
 {
     display: block;
-    /*padding: 4px;*/
     font-size: 30px;
     width: 35%;
     margin: 0 1%;
@@ -96,7 +95,7 @@ header #logo_text
 .fa:hover 
 {
     opacity: 0.7;
-}
+}*/
 
 
 /* Page Scroll Snapping */
