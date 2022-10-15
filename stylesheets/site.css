@@ -1,12 +1,12 @@
-@font-face 
+/*@font-face 
 {
     font-family: Patrick-Hand-SC;
     src: url('/site/fonts/patrick-hand.sc.ttf');
-}
+}*/
 
 body
 {
-    font-family: 'Patrick-Hand-SC';
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #000000;
     background-color: #540b0e;
     margin: 0;
