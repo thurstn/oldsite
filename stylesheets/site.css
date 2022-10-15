@@ -38,7 +38,7 @@ header #logo_text
     float: left;
     text-align: center;
     margin: 0 5%;
-    padding: 5px;
+    /*padding: 5px;*/
     width: 90%;
     font-size: 30px;
     text-decoration: none;
