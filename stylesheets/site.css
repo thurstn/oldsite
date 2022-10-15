@@ -70,6 +70,7 @@ header #logo
     width: 85%;
     overflow-y: scroll;
     scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
 }
 .scroll-section
 {
