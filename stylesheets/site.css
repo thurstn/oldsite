@@ -27,9 +27,13 @@ header #logo
     display: block;
     float: left;
     text-align: center;
-    margin: 0 5%;
+    margin: 5% 5%;
     width: 60%;
     height: 15%;
+}
+header #logo img
+{
+    object-fit: fill;
 }
 
 /* Navbar stuff */
@@ -47,8 +51,8 @@ header #logo
 {
     float: left;
     text-align: center;
-    padding: 4px 16px;
-    margin: 0.5% 1%;
+    padding: 4px 8px;
+    margin: 0 1%;
     text-decoration: none;
     font-size: 30px;
     border-bottom: 2px solid rgba(0,0,0,0);
