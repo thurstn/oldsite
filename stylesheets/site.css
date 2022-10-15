@@ -45,14 +45,13 @@ header #logo_text
     border-bottom: 2px solid rgba(0,0,0,1);
 }
 
-
 /* Navbar stuff */
 .navbar
 {
     display: block;
     width: 70%;
     height: 40%;
-    margin: 50% 15%;
+    margin: 30% 15%;
     overflow: hidden;
     color: #000000;
     background-color: #ffffff;
@@ -76,6 +75,25 @@ header #logo_text
 {
     border-bottom: 2px solid rgba(0,0,0,0.5);
 }*/
+
+/* Social Media Icons */
+.social-link-block
+{
+    display: block;
+    width: 90%;
+    overflow: hidden;
+}
+.fa
+{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+  }
 
 /* Page Scroll Snapping */
 .scroll-container
