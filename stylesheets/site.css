@@ -77,12 +77,18 @@ header #logo_text
 }*/
 
 /* Social Media Icons */
+.social-link-row
+{
+    display: block;
+    width: 90%;
+    margin: 5%;
+}
 .fa
 {
-    padding: 40px;
+    padding: 4px;
     font-size: 30px;
-    width: 50px;
-    height: 50px;
+    width: 30%;
+    margin: 0;
     text-align: center;
     text-decoration: none;
 }
