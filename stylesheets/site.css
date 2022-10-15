@@ -23,7 +23,7 @@ header
 {
     display: block;
     background-color: #ffffff;
-    width: 20%;
+    width: 15%;
     height: 100vh;
     margin: 0;
 }
@@ -73,25 +73,14 @@ header #logo
     text-decoration: none;
 }
 
-/* Zigzag accent on right of navbar */
-#navbar-accent
+.scroller
 {
-    position: relative;
-    color: white;
-    background-color: #ffffff;
-    text-align: center;
+    margin-left: 15%;
+    height: 100vh;
+    width: 85%;
+    scroll-snap-type: y mandatory;
 }
-#navbar-accent:after
+.scroller section
 {
-    content: "";
-    position: absolute;
-    display: block;
-    height: 30px;
-    bottom: -30px; /* -height */
-    left: 0;
-    right: 0;
-    background: linear-gradient(45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #ffffff 33.333%, #ffffff 66.667%, transparent 66.667%);
-    background-size: 24px 60px; /* toothSize doubleHeight */
-    background-position: 0 -30px; /* horizontalOffset -height */
-    transform: rotateZ(-90deg);
+    scroll-snap-align: start;
 }
