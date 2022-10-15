@@ -27,7 +27,7 @@ header #logo
     object-fit: cover;
     display: block;
     float: left;
-    margin: 5% 25%;
+    margin: 5% 25% 0;
     width: 50%; /*9:2*/
     height: 15%;
     border: 2px solid rgba(0,0,0,1);
@@ -50,9 +50,9 @@ header #logo_text
 .navbar
 {
     display: block;
-    width: 80%;
+    width: 70%;
     height: 40%;
-    margin: 30% 10%;
+    margin: 50% 15%;
     overflow: hidden;
     color: #000000;
     background-color: #ffffff;
