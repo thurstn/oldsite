@@ -134,6 +134,18 @@ header #logo_text
     height: 100%;
     width: 100%;
 }
+#illustration-header
+{
+    width: 100%;
+    cursor: default;
+}
+#illustration-header div
+{
+    width: 100%;
+    color: #ffffff;
+    font-size: 100%;
+    overflow-wrap: break-word;
+}
 .gallery-list li
 {
     margin: 3px 7px;
@@ -145,10 +157,6 @@ header #logo_text
     position: relative;
     cursor: pointer;
 }
-#illustration-header
-{
-    cursor: default;
-}
 .gallery-list li img
 {
     border: 3px solid rgba(255, 255, 255, 1);
@@ -156,13 +164,6 @@ header #logo_text
     vertical-align: middle;
     object-fit: cover;
     transition: all .3s ease;
-}
-#illustration-header div
-{
-    width: 100%;
-    color: #ffffff;
-    font-size: 70px;
-    overflow-wrap: break-word;
 }
 .gallery-list li:hover
 {
