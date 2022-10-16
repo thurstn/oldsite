@@ -29,7 +29,6 @@ header #logo
     float: left;
     margin: 5% 25% 0;
     width: 50%;
-    min-width: 100px;
     aspect-ratio: 1 / 1;
     border: 2px solid rgba(0,0,0,1);
 }
@@ -72,10 +71,6 @@ header #logo_text
 {
     border-bottom: 2px solid rgba(0,0,0,0.5);
 }
-/*.navbar a.active
-{
-    border-bottom: 2px solid rgba(0,0,0,0.5);
-}*/
 
 /* Social Media Icons
 .social-link-row
@@ -140,7 +135,7 @@ header #logo_text
 }
 .gallery-list li
 {
-    margin: 5px;
+    margin: 10px;
     box-sizing: border-box;
     width: 13%;
     min-width: 200px;
