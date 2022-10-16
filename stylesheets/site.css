@@ -130,15 +130,15 @@ header #logo_text
 {
     list-style: none;
     padding: 0;
-    margin: 5% 0 0;
-    height: 95%;
+    margin: 0;
+    height: 100%;
     width: 100%;
 }
 .gallery-list li
 {
     margin: 3px 7px;
     box-sizing: border-box;
-    width: 13%;
+    width: 14%;
     min-width: 200px;
     aspect-ratio: 1 / 1;
     float: left;
