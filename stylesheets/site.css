@@ -141,6 +141,7 @@ header #logo_text
 {
     flex: 20%;
     max-width: 20%;
+    margin: .5%;
 }
 .gallery-column .img-zoom-container
 {
