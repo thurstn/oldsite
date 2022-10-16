@@ -142,9 +142,9 @@ header #logo_text
 }
 .gallery-list li
 {
-    border: 2px solid transparent;
+    border: 2px solid rgba(255, 255, 255, 1);
     box-sizing: border-box;
-    width: 10%;
+    width: 12.5%;
     aspect-ratio: 1 / 1;
     float: left;
     position: relative;
@@ -152,7 +152,7 @@ header #logo_text
 }
 .gallery-list img
 {
-    max-width: 100%;
+    width: 100%;
     vertical-align: middle;
     object-fit: cover;
     transition: all .3s ease;
@@ -160,7 +160,7 @@ header #logo_text
 .gallery-list img:hover
 {
     transform:scale(1.2);
-    z-index: 5;
+    z-index: 1;
 }
 
 
