@@ -137,11 +137,14 @@ header #logo_text
 #illustration-header
 {
     width: 100%;
+    height: 5%;
+    aspect-ratio: initial;
     cursor: default;
 }
 #illustration-header div
 {
     width: 100%;
+    height: 100%;
     color: #ffffff;
     font-size: 100%;
     overflow-wrap: break-word;
