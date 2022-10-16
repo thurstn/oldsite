@@ -134,6 +134,15 @@ header #logo_text
     height: 100%;
     width: 100%;
 }
+.illustration-header
+{
+    width: 26%;
+    min-width: 400px;
+    aspect-ratio: 2 / 1;
+    cursor: auto;
+    color: #ffffff;
+    font-size: 100%;
+}
 .gallery-list li
 {
     margin: 3px 7px;
@@ -144,15 +153,6 @@ header #logo_text
     float: left;
     position: relative;
     cursor: pointer;
-}
-.illustration-header
-{
-    width: 26%;
-    min-width: 400px;
-    aspect-ratio: 2 / 1;
-    cursor: auto;
-    color: #ffffff;
-    font-size: 100%;
 }
 .gallery-list li img
 {
