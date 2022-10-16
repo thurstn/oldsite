@@ -144,7 +144,7 @@ header #logo_text
 {
     border: 2px solid transparent;
     box-sizing: border-box;
-    width: 20%;
+    width: 10%;
     aspect-ratio: 1 / 1;
     float: left;
     position: relative;
@@ -160,6 +160,7 @@ header #logo_text
 .gallery-list img:hover
 {
     transform:scale(1.2);
+    z-index: 5;
 }
 
 
