@@ -148,7 +148,7 @@ header #logo_text
     width: 100%;
     aspect-ratio: 1 / 1;
     overflow: hidden;
-    margin: .5%;
+    margin: 1%;
 }
 .gallery-column img
 {
