@@ -133,12 +133,11 @@ header #logo_text
 {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 5% 0 0;
     height: 95%;
     width: 100%;
-    margin-top: 5%;
 }
-.gallery-list li
+.gallery-list ul li
 {
     margin: 3px;
     box-sizing: border-box;
@@ -148,7 +147,7 @@ header #logo_text
     position: relative;
     cursor: pointer;
 }
-.gallery-list img
+.gallery-list ul li img
 {
     border: 2px solid rgba(255, 255, 255, 1);
     width: 100%;
@@ -156,10 +155,13 @@ header #logo_text
     object-fit: cover;
     transition: all .3s ease;
 }
-.gallery-list img:hover
+.gallery-list ul li:hover
 {
-    transform:scale(1.2);
-    z-index: 1;
+    z-index: 5;
+}
+.gallery-list ul li img:hover
+{
+    transform:scale(1.5);
 }
 
 
