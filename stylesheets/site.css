@@ -137,7 +137,7 @@ header #logo_text
     height: 95%;
     width: 100%;
 }
-.gallery-list ul li
+.gallery-list li
 {
     margin: 3px;
     box-sizing: border-box;
@@ -147,7 +147,7 @@ header #logo_text
     position: relative;
     cursor: pointer;
 }
-.gallery-list ul li img
+.gallery-list li img
 {
     border: 2px solid rgba(255, 255, 255, 1);
     width: 100%;
@@ -155,11 +155,11 @@ header #logo_text
     object-fit: cover;
     transition: all .3s ease;
 }
-.gallery-list ul li:hover
+.gallery-list li:hover
 {
     z-index: 5;
 }
-.gallery-list ul li img:hover
+.gallery-list li img:hover
 {
     transform:scale(1.5);
 }
