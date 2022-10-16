@@ -161,8 +161,8 @@ header #logo_text
 {
     width: 100%;
     color: #ffffff;
-    font-size: 100%;
-    vertical-align: middle;
+    font-size: 100px;
+    overflow-wrap: break-word;
 }
 .gallery-list li:hover
 {
