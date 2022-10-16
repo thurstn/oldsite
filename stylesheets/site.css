@@ -129,7 +129,7 @@ header #logo_text
 {
 
 }
-.gallery-list
+#Illustration .gallery-list
 {
     display: flex;
     flex-wrap: wrap;
@@ -139,7 +139,6 @@ header #logo_text
     height: 95%;
     width: 100%;
     margin-top: 5%;
-    overflow: hidden;
 }
 .gallery-list li
 {
@@ -150,7 +149,6 @@ header #logo_text
     float: left;
     position: relative;
     cursor: pointer;
-    overflow: hidden;
 }
 .gallery-list img
 {
