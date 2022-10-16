@@ -21,7 +21,7 @@ header
     width: 15%;
     height: 100vh;
     margin: 0;
-    box-shadow: 0px 0px 4px 0px #000000;
+    box-shadow: 0px 0px 8px 0px #000000;
 }
 header #logo
 {
@@ -136,7 +136,7 @@ header #logo_text
 }
 .gallery-list li
 {
-    margin: 7px 4px;
+    margin: 3px 7px;
     box-sizing: border-box;
     width: 13%;
     min-width: 200px;
