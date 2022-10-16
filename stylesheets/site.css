@@ -29,7 +29,7 @@ header #logo
     float: left;
     margin: 5% 25% 0;
     width: 50%;
-    height: 15%;
+    aspect-ratio: 1 / 1;
     border: 2px solid rgba(0,0,0,1);
 }
 header #logo_text
@@ -142,16 +142,21 @@ header #logo_text
     flex: 20%;
     max-width: 20%;
 }
+.gallery-column .img-zoom-container
+{
+    width: 100%;
+    overflow: hidden;
+}
 .gallery-column img
 {
-    object-fit: cover;
     width: 100%;
-    /*height: 25%;*/
     aspect-ratio: 1 / 1;
-    border: 3px solid rgba(255,255,255,0);
-    transition: all .25s;
+    object-fit: cover;
+    transition: all .25s ease;
+    /*height: 25%;*/
+    /*border: 3px solid rgba(255,255,255,0);*/
 }
 .gallery-column img:hover
 {
-    transform:scale(1.3);
+    transform:scale(1.2);
 }
