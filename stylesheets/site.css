@@ -148,8 +148,6 @@ header #logo_text
 #illustration-header
 {
     cursor: default;
-    color: #ffffff;
-    font-size: 100%;
 }
 .gallery-list li img
 {
@@ -159,14 +157,21 @@ header #logo_text
     object-fit: cover;
     transition: all .3s ease;
 }
+#illustration-header div
+{
+    width: 100%;
+    color: #ffffff;
+    font-size: 100%;
+    vertical-align: middle;
+}
 .gallery-list li:hover
 {
     z-index: 5;
 }
-.gallery-list li img:hover
+/*.gallery-list li img:hover
 {
     transform:scale(1.5);
-}
+}*/
 
 
 /*.gallery
