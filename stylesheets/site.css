@@ -139,9 +139,10 @@ header #logo_text
 }
 .gallery-list li
 {
-    margin: 3px;
+    margin: .5%;
     box-sizing: border-box;
-    width: 12.5%;
+    width: 13%;
+    min-width: 100px;
     aspect-ratio: 1 / 1;
     float: left;
     position: relative;
@@ -162,6 +163,7 @@ header #logo_text
 .gallery-list li img:hover
 {
     transform:scale(1.5);
+    aspect-ratio: ;
 }
 
 
