@@ -147,13 +147,13 @@ header #logo_text
     width: 100%;
     aspect-ratio: 1 / 1;
     overflow: hidden;
+    margin: .5%;
 }
 .gallery-column img
 {
     width: 100%;
     object-fit: cover;
     transition: all .25s ease;
-    margin: .5%;
     /*height: 25%;*/
     /*border: 3px solid rgba(255,255,255,0);*/
 }
