@@ -183,7 +183,6 @@ header #logo-text
     float: left;
     position: relative;
     cursor: pointer;
-    overflow: hidden;
     border: 3px solid rgba(255, 255, 255, 1);
 }
 .gallery-list li img
