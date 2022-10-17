@@ -98,7 +98,8 @@ header #logo_text
     justify-content: center;
     align-items: center;
     outline: none;
-    width: 40%;
+    width: 20%;
+    border-radius: 5px;
     aspect-ratio: 1 / 1;
     text-decoration: none;
     text-align: center;
@@ -109,9 +110,7 @@ header #logo_text
 }
 .fa-twitter
 {
-    font-size: 100%;
     background-color: #55acee;
-    color: #ffffff;
 }
 
 
