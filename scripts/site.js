@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("imh").on('click', function(event){
+    $("img").on('click', function(event){
         event.stopPropagation();
         event.stopImmediatePropagation();
 
