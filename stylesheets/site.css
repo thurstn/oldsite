@@ -87,11 +87,10 @@ header #logo_text
     display: flex;
     flex: wrap;
     justify-content: center;
-    gap: 8px;
     width: 80%;
     margin: 0 10%;
 }
-.fa
+.social-link-block a
 {
     position: relative;
     display: flex;
@@ -104,9 +103,10 @@ header #logo_text
     text-decoration: none;
     text-align: center;
     font-size: 8vw;
-    padding: 4px 0;
+    margin: 4px;
+    line-height: 100%;
 }
-.fa:hover 
+.social-link-block a:hover 
 {
     opacity: 0.7;
 }
