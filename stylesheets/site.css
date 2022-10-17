@@ -104,7 +104,7 @@ header #logo_text
     text-align: center;
     font-size: 8vw;
     margin: 4px;
-    line-height: 100%;
+    line-height: 20px;
 }
 .social-link-block a:hover 
 {
