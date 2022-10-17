@@ -104,13 +104,24 @@ header #logo_text
     text-align: center;
     font-size: 200%;
     margin: 4px;
-    background-color: #f0f0f0;
     color: #ffffff;
 }
 .social-link-block a:hover 
 {
     opacity: 0.7;
-    color: #ffffff;
+}
+
+.fa-twitter
+{
+    background-color: #00acee;
+}
+.fa-instagram
+{
+    background-color: #E1306C;
+}
+.fa-deviantart
+{
+    background-color: #4dc47d;
 }
 
 
