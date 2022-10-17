@@ -102,7 +102,7 @@ header #logo_text
     aspect-ratio: 1 / 1;
     text-decoration: none;
     text-align: center;
-    font-size: 8vw;
+    font-size: 100%;
     margin: 4px;
 }
 .social-link-block a:hover 
