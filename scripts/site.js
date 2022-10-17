@@ -1,4 +1,5 @@
 $(".expandable-img").click(function(){
+    console.log("h");
     $("#modal").show();
     $("#modal-img").attr("src", $(this).attr("src"));
 });
