@@ -1,5 +1,14 @@
+window.onload()
+{
+    let expandables = document.getElementsByClassName("expandable-img");
+    for (let i = 0; i < expandables.length; i++)
+    {
+        expandables[i].addEventListener("click", openModalImageViewer());
+    }
+}
+
 //Change site background image based on date
-function setBackgroundImage()
+/*function setBackgroundImage()
 {
     var today = new Date();
     var season = "";
@@ -33,4 +42,19 @@ function setBackgroundImage()
     }
 
     document.body.style.backgroundImage = "url('/site/images/backgrounds/'" + season + "'.png')";
+}*/
+
+function openModalImageViewer()
+{
+    document.getElementById("modal").style.display = "block";
+    document.getElementById("modal-img").src = this.src;
 }
+
+function closeModalImageViewer()
+{
+    document.getElementById("modal-img").src = "";
+    document.getElementById("modal").style.display = "none";
+}
+
+
+document.getElementById("modal").addEventListener("click", closeModalImageViewer());
