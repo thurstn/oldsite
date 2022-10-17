@@ -51,7 +51,6 @@ header #logo_text
     padding: 5px 0;
     width: 90%;
     font-size: 30px;
-    font-size: 100%;
     text-decoration: none;
     border-bottom: 2px solid rgba(0,0,0,1);
 }
@@ -158,6 +157,14 @@ header #logo_text
 {
 
 }
+.section-header
+{
+    width: 100%;
+    height: 5%;
+    color: #ffffff;
+    font-size: 100%;
+    margin-left: 7px;
+}
 .gallery-list
 {
     list-style: none;
@@ -165,22 +172,6 @@ header #logo_text
     margin: 0;
     height: 100%;
     width: 100%;
-}
-#illustration-header
-{
-    width: 100%;
-    height: 5%;
-    aspect-ratio: initial;
-    cursor: default;
-    border: none;
-}
-#illustration-header div
-{
-    width: 100%;
-    height: 100%;
-    color: #ffffff;
-    font-size: 100%;
-    overflow-wrap: break-word;
 }
 .gallery-list li
 {
