@@ -159,6 +159,7 @@ header #logo_text
     float: left;
     position: relative;
     cursor: pointer;
+    overflow: hidden;
 }
 .gallery-list li img
 {
@@ -168,14 +169,10 @@ header #logo_text
     object-fit: cover;
     transition: all .3s ease;
 }
-.gallery-list li:hover
+.gallery-list li img:hover
 {
-    z-index: 5;
+    transform:scale(1.2);
 }
-/*.gallery-list li img:hover
-{
-    transform:scale(1.5);
-}*/
 
 
 /*.gallery
