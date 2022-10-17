@@ -1,11 +1,11 @@
 $(document).ready(function(){
-    $("img").on('click', function(event){
+    $(".expandable-img").on('click', function(event){
         event.stopPropagation();
         event.stopImmediatePropagation();
 
         console.log("h");
         $("#modal").show();
-        $("#modal-img").attr("src", $(this).attr("src"));
+        $("#modal-img").attr("src", $("img", this).attr("src"));
     });
 });
 
