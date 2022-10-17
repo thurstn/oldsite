@@ -1,14 +1,12 @@
-window.addEventListener("load", setUpStuff());
+$(".expandable-img").click(function(){
+    $("#modal").show();
+    $("#modal-img").attr("src", $(this).attr("src"));
+});
 
-function setUpStuff()
-{
-    console.log("loaded");
-    let expandables = document.getElementsByClassName("expandable-img");
-    for (let i = 0; i < expandables.length; i++)
-    {
-        expandables[i].addEventListener("click", openModalImageViewer());
-    }
-}
+$("#modal").click(function(){
+    $("#modal").hide();
+    $("#modal-img").attr("src", "");
+});
 
 //Change site background image based on date
 /*function setBackgroundImage()
@@ -47,17 +45,8 @@ function setUpStuff()
     document.body.style.backgroundImage = "url('/site/images/backgrounds/'" + season + "'.png')";
 }*/
 
-function openModalImageViewer()
-{
-    document.getElementById("modal").style.display = "block";
-    document.getElementById("modal-img").src = this.src;
-}
-
 function closeModalImageViewer()
 {
     document.getElementById("modal-img").src = "";
     document.getElementById("modal").style.display = "none";
 }
-
-
-document.getElementById("modal").addEventListener("click", closeModalImageViewer());
