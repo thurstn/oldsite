@@ -79,6 +79,8 @@ header #logo_text
     flex: wrap;
     justify-content: center;
     gap: 8px;
+    width: 80%;
+    margin: 0 10%;
 }
 .fa
 {
