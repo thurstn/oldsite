@@ -103,14 +103,11 @@ header #logo_text
     aspect-ratio: 1 / 1;
     text-decoration: none;
     text-align: center;
+    font-size: 8vw;
 }
 .fa:hover 
 {
     opacity: 0.7;
-}
-.fa-twitter
-{
-    background-color: #55acee;
 }
 
 
