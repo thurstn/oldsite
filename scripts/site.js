@@ -1,7 +1,5 @@
-console.log("aaaaaa");
-
 $(document).ready(function(){
-    $(".expandable-img").on('click', function(event){
+    $("imh").on('click', function(event){
         event.stopPropagation();
         event.stopImmediatePropagation();
 
