@@ -1,12 +1,16 @@
-$(".expandable-img").click(function(){
-    console.log("h");
-    $("#modal").show();
-    $("#modal-img").attr("src", $(this).attr("src"));
+$(document).ready(function(){
+    $(".expandable-img").click(function(){
+        console.log("h");
+        $("#modal").show();
+        $("#modal-img").attr("src", $(this).attr("src"));
+    });
 });
 
-$("#modal").click(function(){
-    $("#modal").hide();
-    $("#modal-img").attr("src", "");
+$(document).ready(function(){
+    $("#modal").click(function(){
+        $("#modal").hide();
+        $("#modal-img").attr("src", "");
+    });
 });
 
 //Change site background image based on date
