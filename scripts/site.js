@@ -1,3 +1,5 @@
+window.addEventListener("load", setUpStuff());
+
 function setUpStuff()
 {
     console.log("loaded");
@@ -59,4 +61,3 @@ function closeModalImageViewer()
 
 
 document.getElementById("modal").addEventListener("click", closeModalImageViewer());
-window.addEventListener("load", setUpStuff());
