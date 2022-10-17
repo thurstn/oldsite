@@ -73,26 +73,27 @@ header #logo_text
     border-bottom: 2px solid rgba(0,0,0,0.5);
 }
 
-/* Social Media Icons
-.social-link-row
+/* Social Media Icons */
+.social-link-block
 {
-    display: block;
-    width: 90%;
-    margin: 0 5%;
+    display: flex;
+    width: 80%;
+    margin: 0 10%;
 }
 .fa
 {
     display: block;
-    font-size: 30px;
-    width: 35%;
-    margin: 0 1%;
+    float: left;
+    font-size: 100%;
+    width: 40%;
+    margin: 1% 3%;
     text-align: center;
     text-decoration: none;
 }
 .fa:hover 
 {
     opacity: 0.7;
-}*/
+}
 
 
 /* Page Scroll Snapping */
@@ -140,6 +141,7 @@ header #logo_text
     height: 5%;
     aspect-ratio: initial;
     cursor: default;
+    border: none;
 }
 #illustration-header div
 {
@@ -173,38 +175,3 @@ header #logo_text
 {
     transform:scale(1.2);
 }
-
-
-/*.gallery
-{
-    display: flex;
-    flex-wrap: wrap;
-    height: 80%;
-    width: 100%;
-    margin: 5% 0 0;
-}
-.gallery-column
-{
-    flex: 15%;
-    max-width: 15%;
-    margin: .25%;
-}
-.gallery-column .img-zoom-container
-{
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    overflow: hidden;
-    margin: 1%;
-}
-.gallery-column img
-{
-    width: 100%;
-    object-fit: cover;
-    transition: all .25s ease;
-    /*height: 25%;*/
-    /*border: 3px solid rgba(255,255,255,0);
-}
-.gallery-column img:hover
-{
-    transform:scale(1.2);
-}*/
