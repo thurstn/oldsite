@@ -188,14 +188,15 @@ header #logo-text
 .gallery-list li img
 {
     width: 100%;
+    aspect-ratio: 1 / 1;
     vertical-align: middle;
     object-fit: cover;
     transition: all .3s ease;
 }
 .gallery-list li img:hover
 {
-    transform:scale(1.5);
-    object-fit: unset;
+    transform:scale(1.3);
+    object-fit: none;
     z-index: 99;
 }
 
