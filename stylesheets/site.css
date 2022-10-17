@@ -160,10 +160,10 @@ header #logo_text
     position: relative;
     cursor: pointer;
     overflow: hidden;
+    border: 3px solid rgba(255, 255, 255, 1);
 }
 .gallery-list li img
 {
-    border: 3px solid rgba(255, 255, 255, 1);
     width: 100%;
     vertical-align: middle;
     object-fit: cover;
