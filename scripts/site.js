@@ -5,7 +5,7 @@ $(document).ready(function(){
 
         console.log("h");
         $("#modal").show();
-        $("#modal-img").attr("src", $("img", this).attr("src"));
+        $("#modal-img").attr("src", $(this).find("img").attr("src"));
     });
 });
 
