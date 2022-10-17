@@ -1,4 +1,4 @@
-window.onload()
+document.onload()
 {
     let expandables = document.getElementsByClassName("expandable-img");
     for (let i = 0; i < expandables.length; i++)
