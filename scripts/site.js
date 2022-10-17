@@ -1,5 +1,6 @@
-document.onload()
+function setUpStuff()
 {
+    console.log("loaded");
     let expandables = document.getElementsByClassName("expandable-img");
     for (let i = 0; i < expandables.length; i++)
     {
@@ -46,7 +47,6 @@ document.onload()
 
 function openModalImageViewer()
 {
-    console.log("a")
     document.getElementById("modal").style.display = "block";
     document.getElementById("modal-img").src = this.src;
 }
@@ -59,3 +59,4 @@ function closeModalImageViewer()
 
 
 document.getElementById("modal").addEventListener("click", closeModalImageViewer());
+window.addEventListener("load", setUpStuff());
