@@ -182,6 +182,7 @@ header #logo-text
     aspect-ratio: 1 / 1;
     float: left;
     position: relative;
+    overflow: hidden;
     cursor: pointer;
     border: 3px solid rgba(255, 255, 255, 1);
 }
