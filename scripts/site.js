@@ -46,6 +46,7 @@ window.onload()
 
 function openModalImageViewer()
 {
+    console.log("a")
     document.getElementById("modal").style.display = "block";
     document.getElementById("modal-img").src = this.src;
 }
