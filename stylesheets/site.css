@@ -55,7 +55,7 @@ header #logo-text
     width: 90%;
     font-size: 2em;
     text-decoration: none;
-    border-bottom: 2px solid #e49e84;
+    border-bottom: 2px solid #ffffff;
 }
 
 /* Navbar stuff */
@@ -82,7 +82,7 @@ header #logo-text
 }
 .navbar a:hover
 {
-    border-bottom: 2px solid rgba(228,158,132,0);
+    border-bottom: 2px solid rgba(228,158,132,1);
 }
 /* Social Media Buttons */
 .social-link-block
