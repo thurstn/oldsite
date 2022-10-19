@@ -82,7 +82,7 @@ header #logo-text
 }
 .navbar a:hover
 {
-    border-bottom: 2px solid rgba(228,158,132,1);
+    border-bottom: 2px solid rgba(255,255,255,.5);
 }
 /* Social Media Buttons */
 .social-link-block
@@ -230,7 +230,7 @@ header #logo-text
 	display: grid;
 	gap: .5%;
 	grid-template-columns: repeat(auto-fit, minmax(15%, 1fr));
-	grid-auto-rows: 20%;
+	grid-auto-rows: 25%;
 	grid-auto-flow:dense
 }
 .grid-wrapper .img-wide 
