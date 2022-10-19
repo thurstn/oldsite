@@ -210,6 +210,7 @@ header #logo-text
 .grid-wrapper > li
 {
     display: flex;
+    position: relative;
 	justify-content: center;
 	align-items: center;
 }
@@ -223,9 +224,9 @@ header #logo-text
 .grid-wrapper 
 {
     list-style: none;
-    width: 90%;
+    width: 95%;
     height: 90%;
-    margin: 0;
+    margin: 0 1%;
 	display: grid;
 	gap: .5%;
 	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
