@@ -208,6 +208,7 @@ header #logo-text
 }
 
 
+/* Masonry Gallery Stuff */
 .grid-wrapper > li
 {
     display: flex;
