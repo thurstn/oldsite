@@ -222,10 +222,11 @@ header #logo-text
 
 .grid-wrapper 
 {
+    margin: 0;
 	display: grid;
 	grid-gap: .5%;
-	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-	grid-auto-rows: 200px;
+	grid-template-columns: repeat(auto-fit, minmax(1%, 1fr));
+	grid-auto-rows: .5%;
 	grid-auto-flow: dense;
 }
 .grid-wrapper .img-wide 
