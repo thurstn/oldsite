@@ -149,14 +149,14 @@ header #logo-text
     overflow: hidden;
 }
 
-#home
+#section_home
 {
     background-image: url('https://picsum.photos/1920/1080?random=1');
     background-size: cover;
     background-position: center center;
 }
 
-#illustration
+#section_original-art
 {
 
 }
