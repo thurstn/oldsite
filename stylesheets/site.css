@@ -1,8 +1,10 @@
 body
 {
     font-family: 'Ubuntu', sans-serif;
+    /*color: #000000;
+    background-color: #540b0e;*/
     color: #000000;
-    background-color: #540b0e;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
@@ -26,7 +28,8 @@ a:visited
 header
 {
     display: block;
-    background-color: #ffffff;
+    background-color: #800020;
+    color: #ffffff;
     width: 15%;
     height: 100vh;
     margin: 0;
@@ -63,8 +66,8 @@ header #logo-text
     height: 40%;
     margin: 30% 15%;
     overflow: hidden;
-    color: #000000;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #800020;
 }
 .navbar a
 {
@@ -142,7 +145,7 @@ header #logo-text
     width: 100%;
     height: 100vh;
     font-size: 40px;
-    color: white;
+    color: #000000;
     overflow: hidden;
 }
 
@@ -161,7 +164,7 @@ header #logo-text
 {
     width: 100%;
     height: 5%;
-    color: #ffffff;
+    color: #000000;
     font-size: 100%;
     margin-left: 10px;
 }
