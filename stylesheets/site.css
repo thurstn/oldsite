@@ -262,14 +262,15 @@ header #logo-text
 {
     width: 95%;
     margin: 0 1%;
-	display: grid;
+	display: flex;
+    flex-direction: column;
 	gap: .1%;
     columns: 4 25%;
 	/*grid-auto-flow: dense;*/
 }
 .gallery-container > a
 {
-    width: 250px;
+    width: 400px;
     margin: 0;
     display: flex;
     position: relative;
