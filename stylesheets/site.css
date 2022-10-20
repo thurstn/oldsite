@@ -264,18 +264,17 @@ header #logo-text
     margin: 0 1%;
 	display: grid;
 	gap: .1%;
-    grid-template-columns: repeat(auto-fill, 400px);
+    grid-template-columns: repeat(auto-fill, 300px);
     grid-auto-rows: minmax(20px, auto);
     justify-content: center;
 }
 .gallery-container > a
 {
-    width: 400px;
-    margin: 0;
+    width: 300px;
+    margin: 5px;
     display: flex;
     position: relative;
-	justify-content: center;
-	align-items: center;
+	float: left;
 }
 .gallery-container > a > img
 {
