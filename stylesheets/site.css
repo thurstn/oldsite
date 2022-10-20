@@ -140,7 +140,7 @@ header #logo-text
     scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
-.page
+.scroll-section
 {
     scroll-snap-align: start;
     width: 100%;
@@ -149,25 +149,25 @@ header #logo-text
     overflow: hidden;
 }
 
-#page_home
+#section_home
 {
     background-image: url('https://picsum.photos/1920/1080?random=1');
     background-size: cover;
     background-position: center center;
 }
 
-#page_art
+#section_original-art, #section_fan-art
 {
 
 }
-.page-header
+.section-header
 {
     width: 100%;
     color: #ffffff;
     font-size: 2.5em;
     margin-left: 1%;
 }
-.page-description
+.section-description
 {
     width: 90%;
     font-size: 1.2em;
