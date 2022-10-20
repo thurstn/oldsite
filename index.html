@@ -6,28 +6,26 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
 
-        <title>thurstn's fungeon</title>
         <link href="/site/stylesheets/site.css" media="screen" rel="stylesheet" type="text/css" />
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
         <script href="/site/scripts/site.js"></script>
         <!-- Add icon library -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <title>thurstn's fungeon</title>
     </head>
 
     <body>
         <header class="sticky">
-            <a href=#section_home><img id="logo" src="https://picsum.photos/200?random=1" alt="Logo"></a>
-            <a href=#section_home id="logo-text">thurstn</a>
+            <a href=#page_home><img id="logo" src="https://picsum.photos/200?random=1" alt="Logo"></a>
+            <a href=#page_home id="logo-text">thurstn</a>
 
             <nav class="navbar">
-                <a href=#section_original-art>original art</a>
-                <a href=#section_fan-art>fan art</a>
-                <a href=#section_web>web design</a>
-                <a href=#section_about>about</a>
-                <a href=#section_contact>contact</a>
+                <a href=#page_art>art</a>
+                <a href=#page_web>web design</a>
+                <a href=#page_about>about</a>
             </nav>
 
-            
             <div class="social-link-block">
                 <a href="https://twitter.com/thurstn_" class="fa fa-twitter"></a>
                 <a href="https://instagram.com/thurstn_" class="fa fa-instagram"></a>
@@ -36,15 +34,15 @@
         </header>
         
         <!-- Page Scrolly Bits -->
-        <div class="scroll-container">
+        <div class="page-container">
             <!-- Home Page -->
-            <section class="scroll-section" id="section_home">
+            <section class="page" id="page_home">
                 <div class="section-header">thurstn</div>
             </section>
             <!-- Illustration Page -->
-            <section class="scroll-section" id="section_original-art">
-                <div class="section-header">original art</div>
-                <p class="section-description">here's some cool art i made earlier.</p>
+            <section class="page" id="page_art">
+                <div class="page-header">original art</div>
+                <p class="page-description">here's some cool art i made earlier.</p>
                 <ul class="gallery-list">
                     <li><img src="https://picsum.photos/1000?random=1" alt="1"/></li>
                     <li><img src="https://picsum.photos/1000?random=1" alt="2"/></li>
@@ -76,8 +74,8 @@
                     <li><img src="https://picsum.photos/1000?random=1" alt="28"/></li>
                 </ul>
             </section>
-            <!-- Illustration Page -->
-            <section class="scroll-section" id="section_fan-art">
+            <!-- Illustration Page 2 -->
+            <!--<section class="scroll-section" id="section_fan-art">
                 <div class="section-header">fan art</div>
                 <p class="section-description">like original art, but based on things i don't own.</p>
                 <ul class="grid-wrapper">
@@ -110,20 +108,15 @@
                     <li><img src="https://picsum.photos/1000?random=2" alt="27"/></li>
                     <li><img src="https://picsum.photos/1000?random=2" alt="28"/></li>
                 </ul>
-            </section>
+            </section>-->
             <!-- Web Design Page -->
-            <section class="scroll-section" id="section_web">
-                <div class="section-header">web design</div>
-                <p class="section-description">mostly just for fun.</p>
+            <section class="page" id="page_web">
+                <div class="page-header">web design</div>
+                <p class="page-description">mostly just for fun.</p>
             </section>
             <!-- About Page -->
-            <section class="scroll-section" id="section_about">
-                <div class="section-header">about</div>
-            </section>
-            <!-- Contact Page -->
-            <section class="scroll-section" id="section_contact">
-                <div class="section-header">contact</div>
-                <p class="section-description">don't.</p>
+            <section class="page-section" id="page_about">
+                <div class="page-header">about</div>
             </section>
         </div>
     </body>
