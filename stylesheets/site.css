@@ -128,6 +128,15 @@ header #logo-text
 }
 
 
+.page-content-container
+{
+    margin-left: 15%;
+    height: 100vh;
+    width: 85%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
 /* Page Scroll Snapping */
 .scroll-container
 {
