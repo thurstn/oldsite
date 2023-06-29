@@ -1,2 +1,3 @@
 # site
-a github pages portfolio site kinda thing.
+old github pages site.
+it's broken.
